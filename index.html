@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Palacios Fernando</title>
+    <link rel="stylesheet" href="estilos.css">
+ 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#redes">Redes Sociales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section id="inicio" class="align-right">
+            <h2 class="nombre-grande">Palacios Fernando Guillermo</h2>
+            <img src="imagenes\imagenFernando.jpg.jpeg" alt="imagenes\Error.jfif" class="imagen-pequena blanco-negro">
+        </section>
+        
+
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy un Desarrollador junior, con experiencia en el desarrollo de aplicaciones utilizando tecnologías .NET. Me encanta enfrentar desafíos técnicos y encontrar soluciones creativas para problemas complejos. Mi enfoque principal ha sido en el desarrollo backend, utilizando .NET 6 y otras tecnologías relacionadas.</p>
+            <p>Además de mi experiencia en desarrollo, disfruto aprendiendo nuevas tecnologías y ampliando mis habilidades. Estoy comprometido a escribir código limpio y modular que sea fácil de mantener y escalar.</p>
+            <p>En mis tiempos libres, disfruto mucho pasar tiempo con mi familia. También dedico parte de mi tiempo al estudio y aprendizaje de nuevas tecnologías, así como a escuchar música para relajarme y recargar energías.</p>
+        </section>
+        
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <p>Algunas de mis habilidades son:</p>
+            <ul>
+                <li>
+                    <img src="imagenes\dotnet-logo.png" alt=".NET">
+                    Desarrollo de aplicaciones con .NET
+                </li>
+                <li>
+                    <img src="imagenes\csharp.png" alt="C#">
+                    Programación en C#
+                </li>
+                <li>
+                    <img src="imagenes\postman.png" alt="Postman">
+                    Manejo de Postman
+                </li>
+                <li>
+                    <img src="imagenes\sqlserver.png" alt="SQL">
+                    Base de datos SQL
+                </li>
+                <li>
+                    <img src="imagenes\api.jpg" alt="Api">
+                    APIs
+                </li>
+            </ul>
+        </section>
+        
+        
+
+        <section id="proyectos">
+            <h2>Proyecto ABM</h2>
+            <div id="proyectos-lista" class="lista-imagenes">
+                <div class="fila-imagenes">
+                    <img src="imagenes\presentacion.jpg" alt="Presentacion App AMB" class="imagen-proyecto">
+                    <img src="imagenes\agregar.png" alt="Agregar Articulo" class="imagen-proyecto">
+                </div>
+                <br/>
+                <div class="fila-imagenes">
+                    <img src="imagenes\detalle.jpg" alt="Detalle de Articulo" class="imagen-proyecto">
+                    <img src="imagenes\modificar.jpg" alt="Modificar de Articulo" class="imagen-proyecto">
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <h2>Proyecto Sistema Hospitalario</h2>
+            <div id="proyectos-lista" class="lista-imagenes">
+                <div class="fila-imagenes">
+                    <img src="imagenes\sistemaHospitalarioMenu.png" alt="Presentacion App Sistema Hospitalario" class="imagen-proyecto">
+                    <img src="imagenes\sistemahospitalarioCargar.png" alt="Cargar" class="imagen-proyecto">
+                </div>
+            
+            </div>
+        </section>
+        
+        
+        
+
+        <section id="redes">
+            <h2>Redes Sociales</h2>
+            <ul>
+                <li><a href="www.linkedin.com/in/fernando-guillermo-palacios-67520484">LinkedIn</a></li>
+                
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formulario-contacto">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Correo Electrónico" required>
+                <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit" id="enviar-formulario">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
+
